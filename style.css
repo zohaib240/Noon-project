@@ -1,0 +1,268 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+h2,h1{
+   font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+
+}
+
+/* color */
+.red{
+    color: #ff0000;
+}
+
+.black{
+    color: #000000;
+}
+.white{
+    color: #f0f8ff;
+}
+.blue{
+   color: blue;
+}
+.grey-color{
+   color: #7E895B;
+}
+ /* backgound color*/
+ .yellow{
+    background-color: #ffff00;
+ }
+ .red-back{
+    background-color: #ff0000;
+ }
+ .grey{
+   background-color: #e2e2e2ef;
+ }
+ .pink{
+   background-color: #fae6ec;
+ }
+ .black-back{
+    background-color: #000000;
+ }
+ .white-back{
+    background-color: #f0f8ff;
+ }
+
+ /* navbar */
+ .hight{
+    height: 4rem;
+ }
+ .hight-2{
+   height: 2rem;
+ }
+ #hight-3{
+   height: 2rem;
+   width: 55%;
+   border-radius: 0.5rem;
+   margin-left: 10px;
+ }
+ .img-flag{
+   max-width: 2%;
+   margin: -2px 8px 0px 8px;
+ }
+.font-bold{
+   font-weight: bold;
+}
+
+
+
+ 
+ /* flex classes start */
+
+.d-flex{
+   display: flex;
+}
+.justify-center{
+   justify-content: center;
+}
+.justify-between{
+   justify-content: space-between;
+}
+.justify-around{
+   justify-content: space-around;
+}
+.justify-evenly{
+   justify-content: space-evenly;
+}
+.align-center{
+   align-items: center;
+}
+.align-between{
+   align-items: space-between;
+}
+.align-around{
+   align-items: space-around;
+}
+.align-evenly{
+   align-items: space-evenly;
+}
+.text-center{
+   text-align: center;
+}
+.wrap{
+   flex-wrap: wrap;
+}
+.flex-column{
+   flex-direction: column;
+}
+.flex-row{
+   flex-direction: row;
+}
+
+
+/* flex classes end */
+
+
+/* margin classes start */
+.m-left{
+   margin-left: 10px;
+}
+.m-1{
+   margin: 5px;
+}
+.m-2{
+   margin: 10px;
+}
+.m-3{
+   margin: 15px;
+}
+.m-4{
+   margin: 20px;
+}
+.m-5{
+   margin: 90px;
+}
+.mt-1{
+   margin-top: 5px;
+}
+.mt-2{
+   margin-top: 10px;
+}
+.mt-3{
+   margin-top: 15px;
+}
+.mt-4{
+   margin-top: 20px;
+}
+.mt-5{
+   margin-top: 40px;
+}
+.mt-6{
+   margin-top: 100px;
+}
+.font{
+   font-size: xx-large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-line{
+   text-decoration: none;
+}
+.width{
+   width: 100%;
+}
+/* navbar */
+#p-font{
+   font-size: 1rem;
+}
+
+/* Reponsive Navbar*/
+@media(max-width: 700px){
+   header{
+      width: 20%;
+      font-size: 30%;
+      } 
+   #icon{
+      display: block;
+      font-size: 1rem;
+   }
+   a{
+      display: none;
+   }
+   
+}
+
+/* product*/
+
+.img-product{
+   width: 8%;
+}
+
+.img-product-2{
+   width: 40%;
+   margin-left: 10px;
+}
+.img-product3{
+   width: 40%;
+   margin-left: 10px;
+   
+}
+.img-product-4{
+   width: 100%;
+   margin-left: 10Px;
+}
+
+.border{
+   border: 2p solid black;
+}
+.width-33{
+   width: 33%;
+}
+mark{
+   background-color: #ffe600;
+   color: black;
+}
+i{
+   color: #c7210b;
+   background-color: #ffff00;
+}
+p{
+   font-size: 40%;
+}
+
+/* recomnd you */
+
+.iphone-width{
+   width: 25%;
+}
+
+/* responsive product 2*/
+
+@media(max-width:600px){
+html{
+   font-size: 20%;
+}
+img{
+   object-fit: cover;
+}
+}
+
+
+
+/* valentine day */
+
+.img-valantine{
+   width: 12.5%;
+   margin: 20px 5px 0px 7px;
+   flex-wrap: wrap;
+}
+.column{
+   flex-direction: column;
+}
+
+/* hero section */
+.hero-width{
+   width: 100%;
+}
+.hero-width-2{
+width: 60%;
+margin-left: 20%;
+}
+/* footer*/
+.short{
+   width: 5rem;
+}
